@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   addNewRental: false,
-  action: {
+  actions: {
     rentalFormShow() {
       this.set('addNewRental', true);
     },
